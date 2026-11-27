@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="ar-TN" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>الروّة متاع الزهر · Best Body Tunisie</title>
+<meta name="description" content="دوّر الروّة و جرّب تربح Gold Lean Mass ولا Gold Creatine ببلاش! محاولة وحدة كل نهار.">
+<meta name="theme-color" content="#0A0A0B">
+<meta property="og:title" content="الروّة متاع الزهر · Best Body Tunisie">
+<meta property="og:description" content="دوّر الروّة و جرّب تربح Gold Lean Mass ولا Gold Creatine ببلاش!">
+<meta property="og:image" content="https://contactnasriimen-ctrl.github.io/best-body-roue/assets/og.jpg">
+<meta property="og:url" content="https://contactnasriimen-ctrl.github.io/best-body-roue/">
+<meta property="og:type" content="website">
+<link rel="icon" type="image/png" href="assets/icon.png">
+<link rel="apple-touch-icon" href="assets/icon.png">
+<link rel="preload" href="assets/fonts/Cairo_900Black.ttf" as="font" type="font/ttf" crossorigin>
+<style>
+@font-face { font-family: Cairo; font-weight: 700; font-display: swap; src: url(assets/fonts/Cairo_700Bold.ttf) format('truetype'); }
+@font-face { font-family: Cairo; font-weight: 800; font-display: swap; src: url(assets/fonts/Cairo_800ExtraBold.ttf) format('truetype'); }
+@font-face { font-family: Cairo; font-weight: 900; font-display: swap; src: url(assets/fonts/Cairo_900Black.ttf) format('truetype'); }
+@font-face { font-family: Montserrat; font-weight: 900; font-display: swap; src: url(assets/fonts/Montserrat_900Black.ttf) format('truetype'); }
+:root {
+  --bg: #0A0A0B; --card: #151413; --card2: #1d1b18; --line: rgba(233, 190, 72, .22);
+  --gold: #E9BE48; --gold1: #FFF1B8; --gold3: #C08A1E; --text: #F6F2E8; --muted: #B5AD9C; --ok: #1FA855;
+  --gold-grad: linear-gradient(180deg, #FFF1B8 0%, #F2C94C 42%, #C08A1E 100%);
+}
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body { margin: 0; min-height: 100vh; background: var(--bg); color: var(--text); font-family: Cairo, system-ui, sans-serif; font-weight: 700; line-height: 1.6; overflow-x: hidden;
+  background-image: radial-gradient(ellipse 120% 60% at 50% 0%, rgba(233, 190, 72, .16), transparent 60%), radial-gradient(ellipse 80% 40% at 50% 100%, rgba(233, 190, 72, .08), transparent 70%); }
+bdi, .lat { font-family: Montserrat, Cairo, sans-serif; font-weight: 900; letter-spacing: .01em; }
+.wrap { max-width: 480px; margin: 0 auto; padding: 18px 16px calc(28px + env(safe-area-inset-bottom)); }
+.top { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+.top img { width: 170px; height: auto; display: block; }
+.icon-btn { width: 42px; height: 42px; border-radius: 50%; border: 1px solid var(--line); background: var(--card); color: var(--gold); display: grid; place-items: center; cursor: pointer; padding: 0; }
+.icon-btn svg { width: 20px; height: 20px; }
+.hero { text-align: center; margin: 18px 0 4px; }
+.kicker { display: inline-block; padding: 2px 14px; border-radius: 999px; border: 1px solid var(--line); color: var(--gold); font-size: 14px; font-weight: 800; }
+h1 { margin: 8px 0 0; font-size: clamp(40px, 12vw, 56px); line-height: 1.15; font-weight: 900; background: var(--gold-grad); -webkit-background-clip: text; background-clip: text; color: transparent; filter: drop-shadow(0 3px 0 rgba(0, 0, 0, .6)); }
+.hero p { margin: 8px auto 0; max-width: 380px; color: var(--text); font-size: 17px; }
+.hero p bdi { color: var(--gold1); }
+
+.stage { position: relative; width: min(100%, 440px); margin: 14px auto 0; aspect-ratio: 1040 / 1080; }
+.stage::before { content: ""; position: absolute; inset: 8% 4% 0; border-radius: 50%; background: radial-gradient(circle, rgba(233, 190, 72, .28), transparent 65%); filter: blur(18px); }
+.stage svg { position: relative; width: 100%; height: 100%; display: block; overflow: visible; }
+
+.spin { display: block; width: min(100%, 360px); margin: 16px auto 0; padding: 14px 20px 16px; border: 0; border-radius: 999px; cursor: pointer;
+  font: 900 26px/1.2 Cairo, sans-serif; color: #17120a; background: var(--gold-grad); box-shadow: 0 6px 0 #7A520C, 0 14px 30px rgba(233, 190, 72, .35); transition: transform .12s, box-shadow .12s, filter .2s; }
+.spin:active { transform: translateY(4px); box-shadow: 0 2px 0 #7A520C, 0 8px 20px rgba(233, 190, 72, .3); }
+.spin:focus-visible, .btn:focus-visible, .icon-btn:focus-visible, summary:focus-visible { outline: 3px solid var(--gold1); outline-offset: 3px; }
+.spin:disabled { cursor: default; filter: grayscale(.6) brightness(.7); box-shadow: 0 6px 0 #3a3022; }
+.spin.pulse { animation: pulse 1.6s ease-in-out infinite; }
+@keyframes pulse { 50% { transform: scale(1.04); } }
+.hint { text-align: center; color: var(--muted); font-size: 14px; margin: 10px 0 0; }
+.hint b { color: var(--gold); font-weight: 800; }
+
+.today { margin: 16px auto 0; padding: 14px 16px; border-radius: 18px; background: var(--card); border: 1px solid var(--line); text-align: center; }
+.today[hidden] { display: none; }
+.today .lbl { color: var(--muted); font-size: 14px; }
+.today .res { font-size: 20px; font-weight: 900; }
+.today .res.win { color: var(--gold1); }
+.today .code { margin-top: 6px; }
+.timer { font-family: Montserrat, sans-serif; font-weight: 900; font-size: 26px; color: var(--gold); letter-spacing: .04em; direction: ltr; }
+
+h2 { font-size: 24px; font-weight: 900; margin: 34px 0 12px; text-align: center; }
+h2 span { background: var(--gold-grad); -webkit-background-clip: text; background-clip: text; color: transparent; }
+.steps { list-style: none; margin: 0; padding: 0; display: grid; gap: 10px; }
+.steps li { display: flex; align-items: center; gap: 14px; padding: 12px 14px; border-radius: 16px; background: var(--card); border: 1px solid var(--line); font-size: 16px; }
+.steps .n { flex: none; width: 40px; height: 40px; border-radius: 50%; display: grid; place-items: center; background: var(--gold-grad); color: #17120a; font: 900 20px/1 Montserrat, sans-serif; }
+.prizes { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+.reel { width: min(100%, 340px); margin: 0 auto; border-radius: 22px; overflow: hidden; border: 1px solid var(--line); box-shadow: 0 18px 40px rgba(0, 0, 0, .6); background: #000; aspect-ratio: 9 / 16; }
+.reel video { width: 100%; height: 100%; display: block; object-fit: cover; }
+.prize { padding: 14px 10px 12px; border-radius: 18px; background: linear-gradient(180deg, var(--card2), var(--card)); border: 1px solid var(--line); text-align: center; }
+.prize img { height: 130px; width: auto; max-width: 100%; display: block; margin: 0 auto 8px; filter: drop-shadow(0 8px 12px rgba(0, 0, 0, .6)); }
+.prize b { display: block; font-size: 15px; line-height: 1.3; }
+.prize small { color: var(--muted); font-size: 13px; }
+details { margin-top: 26px; border-radius: 16px; background: var(--card); border: 1px solid var(--line); }
+summary { padding: 14px 16px; cursor: pointer; font-weight: 900; font-size: 17px; list-style: none; display: flex; justify-content: space-between; align-items: center; }
+summary::-webkit-details-marker { display: none; }
+summary::after { content: "+"; color: var(--gold); font: 900 22px/1 Montserrat, sans-serif; }
+details[open] summary::after { content: "−"; }
+details ol { margin: 0; padding: 0 34px 16px 16px; color: var(--muted); font-size: 15px; display: grid; gap: 6px; }
+footer { margin-top: 28px; text-align: center; color: #6f685c; font-size: 13px; }
+footer img { width: 64px; opacity: .55; display: block; margin: 0 auto 6px; }
+
+/* résultat */
+.modal { position: fixed; inset: 0; z-index: 20; display: grid; place-items: center; padding: 16px; background: rgba(0, 0, 0, .72); backdrop-filter: blur(4px); opacity: 0; pointer-events: none; transition: opacity .25s; }
+.modal.show { opacity: 1; pointer-events: auto; }
+.sheet { position: relative; width: min(100%, 420px); max-height: calc(100vh - 32px); overflow: auto; padding: 22px 18px 18px; border-radius: 26px; text-align: center;
+  background: radial-gradient(ellipse at 50% 0%, rgba(233, 190, 72, .22), transparent 60%), #121110; border: 1px solid rgba(233, 190, 72, .45); box-shadow: 0 30px 80px rgba(0, 0, 0, .7);
+  transform: translateY(24px) scale(.96); transition: transform .35s cubic-bezier(.2, 1.4, .4, 1); }
+.modal.show .sheet { transform: none; }
+.sheet:focus { outline: none; }
+.sheet .close { position: absolute; top: 10px; left: 10px; }
+.sheet img.pz { height: 170px; width: auto; display: block; margin: 4px auto 6px; filter: drop-shadow(0 12px 16px rgba(0, 0, 0, .7)); }
+.sheet h3 { margin: 4px 0 0; font-size: 40px; line-height: 1.2; font-weight: 900; background: var(--gold-grad); -webkit-background-clip: text; background-clip: text; color: transparent; }
+.sheet p { margin: 6px 0 0; font-size: 17px; }
+.sheet p.small { color: var(--muted); font-size: 14px; }
+.code { display: inline-block; margin: 12px auto 0; padding: 8px 18px; border-radius: 12px; border: 2px dashed var(--gold); color: var(--gold1); font: 900 24px/1.3 Montserrat, sans-serif; letter-spacing: .08em; direction: ltr; user-select: all; }
+.actions { display: grid; gap: 10px; margin-top: 16px; }
+.btn { display: flex; align-items: center; justify-content: center; gap: 10px; padding: 12px 16px; border-radius: 14px; border: 0; cursor: pointer; text-decoration: none; font: 900 17px/1.3 Cairo, sans-serif; color: #fff; background: #2a2723; }
+.btn svg { width: 22px; height: 22px; flex: none; }
+.btn.wa { background: var(--ok); }
+.btn.ig { background: linear-gradient(90deg, #F58529, #DD2A7B 50%, #8134AF); }
+.btn.fb { background: #0866FF; }
+.btn.gold { background: var(--gold-grad); color: #17120a; }
+.btn.ghost { background: transparent; border: 1px solid var(--line); color: var(--text); }
+#confetti { position: fixed; inset: 0; width: 100%; height: 100%; pointer-events: none; z-index: 30; }
+.toast { position: fixed; left: 50%; bottom: calc(20px + env(safe-area-inset-bottom)); transform: translate(-50%, 20px); z-index: 40; padding: 8px 18px; border-radius: 999px; background: var(--gold1); color: #17120a; font-weight: 900; opacity: 0; transition: .25s; pointer-events: none; }
+.toast.show { opacity: 1; transform: translate(-50%, 0); }
+@media (prefers-reduced-motion: reduce) { .spin.pulse { animation: none; } }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <img src="assets/logo-line.webp" alt="Best Body Nutrition" width="170" height="44">
+    <button class="icon-btn" id="mute" type="button" aria-label="الصوت" aria-pressed="false"></button>
+  </header>
+
+  <section class="hero">
+    <span class="kicker">لعبة <bdi>Best Body</bdi> تونس</span>
+    <h1>الروّة متاع الزهر</h1>
+    <p>دوّر الروّة و جرّب تربح <bdi>Gold Lean Mass</bdi> ولا <bdi>Gold Creatine</bdi> ببلاش!</p>
+  </section>
+
+  <div class="stage" id="stage"></div>
+  <button class="spin pulse" id="spin" type="button">دوّر الروّة!</button>
+  <p class="hint" id="hint">عندك <b>محاولة وحدة</b> كل نهار</p>
+
+  <div class="today" id="today" hidden></div>
+
+  <h2><span>كيفاش تلعب؟</span></h2>
+  <ol class="steps">
+    <li><span class="n">1</span><span>تابع صفحة <bdi>Best Body</bdi> على إنستغرام و فيسبوك</span></li>
+    <li><span class="n">2</span><span>دوّر الروّة مرّة في النهار</span></li>
+    <li><span class="n">3</span><span>كان ربحت، ابعثلنا الكود في الميساج و خوذ الكادو متاعك</span></li>
+  </ol>
+
+  <h2><span>شوف الفيديو</span></h2>
+  <div class="reel"><video controls playsinline preload="none" poster="assets/reel-poster.jpg" aria-label="فيديو الروّة متاع الزهر"><source src="assets/reel.mp4" type="video/mp4"></video></div>
+
+  <h2><span>الكادوات</span></h2>
+  <div class="prizes">
+    <div class="prize"><img src="assets/bag.webp" alt="Gold Lean Mass" loading="lazy"><b><bdi>Gold Lean Mass</bdi></b><small>كيس 6 كغ</small></div>
+    <div class="prize"><img src="assets/jar.webp" alt="Gold Creatine" loading="lazy"><b><bdi>Gold Creatine</bdi></b><small>علبة 300 غ</small></div>
+  </div>
+
+  <details>
+    <summary>الشروط متاع اللعبة</summary>
+    <ol id="rules"></ol>
+  </details>
+
+  <footer>
+    <img src="assets/logo-sil.webp" alt="" width="64">
+    <span id="foot"></span>
+  </footer>
+</div>
+
+<div class="modal" id="modal" role="dialog" aria-modal="true" aria-labelledby="mTitle">
+  <div class="sheet" id="sheet" tabindex="-1"></div>
+</div>
+<canvas id="confetti"></canvas>
+<div class="toast" id="toast" role="status"></div>
+
+<script src="config.js"></script>
+<script src="wheel.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
